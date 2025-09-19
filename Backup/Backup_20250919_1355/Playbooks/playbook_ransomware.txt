@@ -1,0 +1,11 @@
+﻿================================================================================
+  Playbook de Resposta a Incidente - NexTrace
+  Autor: Diogo Felde
+  Data: 19/09/2025 13:55
+  Cenário: [Exemplo: Ataque de ransomware detectado]
+  Ações:
+    1. Isolar máquina comprometida
+    2. Coletar evidências com Volatility
+    3. Notificar equipe forense
+    4. Atualizar SIEM e gerar relatório
+================================================================================

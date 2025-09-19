@@ -1,0 +1,15 @@
+================================================================================
+Relatório Consolidado de Compliance - NexTrace
+Autor: Diogo Felde
+Data: 19/09/2025 15:38
+================================================================================
+
+LGPD:
+================================================================================ Checklist LGPD - NexTrace Autor: Diogo Felde Data: 19/09/2025 15:38 ================================================================================ - Inventário de dados pessoais atualizado? [ ] - Bases legais mapeadas? [ ] - Registros de acesso a dados sensíveis? [ ] - Plano de resposta a incidente com dados pessoais? [ ] - Retenção e descarte definidos? [ ]
+
+ISO 27001:
+================================================================================ Checklist ISO 27001 - NexTrace Autor: Diogo Felde Data: 19/09/2025 15:38 ================================================================================ - Política de Segurança aprovada e vigente? [ ] - Gestão de ativos e classificação implementadas? [ ] - Controles de acesso (RBAC) documentados? [ ] - Gestão de vulnerabilidades e patches ativa? [ ] - Testes e exercícios periódicos registrados? [ ]
+
+NIST CSF:
+================================================================================ Checklist NIST CSF - NexTrace Autor: Diogo Felde Data: 19/09/2025 15:38 ================================================================================ Identify [ ] Protect [ ] Detect [ ] Respond [ ] Recover [ ] - Identificar: CMDB completo e riscos mapeados - Proteger: Hardening, RBAC, backup - Detectar: SIEM, TI, detecção por comportamento - Responder: SOAR, playbooks - Recuperar: Backups testados e DRP
+================================================================================

@@ -1,0 +1,12 @@
+﻿================================================================================
+Integração SOAR + SIEM - NexTrace
+Autor: Diogo Felde
+Data: 19/09/2025 15:24
+================================================================================
+- Configurar Wazuh para disparar alertas customizados (ruleset).
+- Mapear alertas críticos para execução de playbooks:
+  * Alerta de IOC → Bloquear-IP.ps1
+  * Alerta de ransomware → Isolar-Host.ps1 + Coletar-Evidencias.ps1
+  * Alerta de credenciais comprometidas → Revogar-UsuarioAD.ps1
+- Logs de execução dos playbooks devem ser enviados de volta ao SIEM.
+================================================================================

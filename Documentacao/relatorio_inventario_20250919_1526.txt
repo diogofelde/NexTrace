@@ -1,0 +1,14 @@
+﻿================================================================================
+  Relatório de Inventário - NexTrace
+  Autor: Diogo Felde
+  Data: 19/09/2025 15:26
+================================================================================
+Resumo:
+- Hostname: DESKTOP-8OGMG8M
+- Domínio: WORKGROUP
+- SO: Microsoft Windows 11 Pro for Workstations (10.0.26100)
+- CPU: Intel(R) Core(TM) i5-4570 CPU @ 3.20GHz
+- Memória: 15.92 GB
+- Discos: C: 1.54GB livres de 110GB; : 0.11GB livres de 0.72GB; E: 208.03GB livres de 223.57GB; D: 336.61GB livres de 465.76GB
+- Usuários locais: Administrador, Convidado, DefaultAccount, Diogo, WDAGUtilityAccount
+================================================================================

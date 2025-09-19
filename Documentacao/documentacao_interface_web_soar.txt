@@ -1,0 +1,22 @@
+================================================================================
+Documentação - Interface Web SOAR
+Autor: Diogo Felde
+Local: Santo André - SP, Brasil
+Data: 19/09/2025 16:22
+================================================================================
+Componentes:
+- index.html: Interface visual
+- style.css: Estilo da página
+- api.ps1: Backend que executa os scripts
+- Logs: Gerados em \Logs\web_YYYYMMDD_HHmm.log
+
+Playbooks disponíveis:
+- Isolar-Host.ps1
+- Bloquear-IP.ps1
+- Revogar-UsuarioAD.ps1
+- Coletar-Evidencias.ps1
+
+Requisitos:
+- IIS habilitado com suporte a scripts PowerShell
+- Permissões administrativas para execução dos playbooks
+================================================================================

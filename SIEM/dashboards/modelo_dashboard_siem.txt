@@ -1,0 +1,10 @@
+﻿================================================================================
+Dashboard SIEM - NexTrace
+Autor: Diogo Felde
+Data: 19/09/2025 15:19
+KPIs:
+- Incidentes críticos detectados
+- Eventos por origem (Windows, Suricata, Zeek)
+- Top 10 IPs suspeitos
+- Tendência de alertas por hora
+================================================================================

@@ -1,0 +1,13 @@
+================================================================================
+Dashboard NOC - NexTrace
+Autor: Diogo Felde
+Local: Santo André - SP, Brasil
+Data: 19/09/2025 16:04
+================================================================================
+Métricas sugeridas:
+- Disponibilidade de serviços críticos
+- Latência de rede
+- Uso de CPU, memória e disco
+- Status de agentes (Zabbix, Wazuh, Prometheus)
+- Alertas ativos
+================================================================================

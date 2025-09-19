@@ -1,0 +1,19 @@
+================================================================================
+Arquitetura Conceitual - NexTrace
+Autor: Diogo Felde
+Local: Santo André - SP, Brasil
+Data: 19/09/2025 16:04
+================================================================================
+Camadas:
+- Operacional: SIEM, SOAR, NOC, Vulnerabilidades, Inventário
+- Suporte: Forense, Threat Intelligence, Backup
+- Governança: Compliance, Painel Executivo, Integração Executiva
+
+Fluxo:
+- SIEM detecta → SOAR responde → Forense coleta
+- TI alimenta SIEM com IOCs
+- Vulnerabilidades e Inventário dão contexto
+- NOC garante disponibilidade
+- Compliance e Executivos consolidam visão
+- Backup protege tudo
+================================================================================

@@ -1,0 +1,59 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - navigation [ref=e5]:
+      - link "NexTrace" [ref=e6] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e7]:
+        - link "Login" [ref=e8] [cursor=pointer]:
+          - /url: /login
+        - link "Olho de Deus" [ref=e9] [cursor=pointer]:
+          - /url: /olhodedeus
+        - link "Monitoramento" [ref=e10] [cursor=pointer]:
+          - /url: /monitoramento
+        - link "Forense" [ref=e11] [cursor=pointer]:
+          - /url: /forense
+        - link "Sherlock" [ref=e12] [cursor=pointer]:
+          - /url: /sherlock
+        - link "OSINT" [ref=e13] [cursor=pointer]:
+          - /url: /osint
+        - link "Red Team" [ref=e14] [cursor=pointer]:
+          - /url: /redteam
+        - link "Blue Team" [ref=e15] [cursor=pointer]:
+          - /url: /blueteam
+        - link "Pentest" [ref=e16] [cursor=pointer]:
+          - /url: /pentest
+        - link "Auditoria" [ref=e17] [cursor=pointer]:
+          - /url: /auditoria
+        - link "Executivo" [ref=e18] [cursor=pointer]:
+          - /url: /executivo
+        - link "Pronta Resposta" [ref=e19] [cursor=pointer]:
+          - /url: /prontaresposta
+        - link "Purple Team" [ref=e20] [cursor=pointer]:
+          - /url: /purple
+        - link "Threat Intel" [ref=e21] [cursor=pointer]:
+          - /url: /threatintel
+        - link "DevSecOps" [ref=e22] [cursor=pointer]:
+          - /url: /devsecops
+        - link "Cloud" [ref=e23] [cursor=pointer]:
+          - /url: /cloud
+        - link "GRC" [ref=e24] [cursor=pointer]:
+          - /url: /grc
+        - link "Engenharia Malware" [ref=e25] [cursor=pointer]:
+          - /url: /engenhariamalware
+  - main [ref=e26]:
+    - generic [ref=e27]:
+      - heading "Login Institucional" [level=1] [ref=e28]
+      - generic [ref=e29]:
+        - generic [ref=e30]:
+          - text: Matrícula
+          - textbox "Matrícula" [ref=e31]: AdminDiogo
+        - generic [ref=e32]:
+          - text: Senha
+          - textbox "Senha" [ref=e33]: D1090@f
+        - button "Entrar" [active] [ref=e34]
+  - contentinfo [ref=e35]:
+    - paragraph [ref=e36]: Desenvolvido por Diogo Felde — Santo André, SP
+```

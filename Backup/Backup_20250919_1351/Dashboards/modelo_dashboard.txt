@@ -1,0 +1,7 @@
+﻿================================================================================
+  Dashboard Operacional - NexTrace
+  Autor: Diogo Felipe
+  Data: 19/09/2025 13:51
+  Módulo: [INSERIR MÓDULO]
+  Métricas: [INSERIR KPIs, alertas, status]
+================================================================================

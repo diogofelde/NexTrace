@@ -1,0 +1,7 @@
+﻿================================================================================
+  Relatório Técnico - SOC/NOC NexTrace
+  Autor: Diogo Felipe
+  Data: 19/09/2025 13:51
+  Módulo: [INSERIR MÓDULO]
+  Descrição: [INSERIR DESCRIÇÃO DO EVENTO OU ANÁLISE]
+================================================================================

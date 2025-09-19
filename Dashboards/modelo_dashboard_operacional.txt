@@ -1,0 +1,12 @@
+================================================================================
+Modelo Dashboard Operacional - NexTrace
+Autor: Diogo Felde
+Local: Santo André - SP, Brasil
+Data: 19/09/2025 16:04
+================================================================================
+Seções:
+- Visão geral (tickets, incidentes, alertas)
+- Performance (CPU/Mem/Disk/Latência)
+- Segurança (Eventos SIEM, IOC, bloqueios)
+- Conformidade (KPIs LGPD/ISO/NIST)
+================================================================================

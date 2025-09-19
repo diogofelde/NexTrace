@@ -1,0 +1,11 @@
+================================================================================
+Checklist ISO 27001 - NexTrace
+Autor: Diogo Felde
+Local: Santo André - SP, Brasil
+Data: 19/09/2025 16:04
+================================================================================
+- Política de Segurança aprovada e vigente? [ ]
+- Gestão de ativos e classificação implementadas? [ ]
+- Controles de acesso (RBAC) documentados? [ ]
+- Gestão de vulnerabilidades e patches ativa? [ ]
+- Testes e exercícios periódicos registrados? [ ]

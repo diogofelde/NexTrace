@@ -1,0 +1,12 @@
+================================================================================
+Relatório de Monitoramento - NexTrace
+Autor: Diogo Felde
+Local: Santo André - SP, Brasil
+Data: 19/09/2025 16:04
+================================================================================
+Resumo:
+- Serviços monitorados: [ ]
+- Disponibilidade média: [ ]
+- Incidentes detectados: [ ]
+- Tempo médio de resolução (MTTR): [ ]
+================================================================================

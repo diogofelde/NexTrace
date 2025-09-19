@@ -1,0 +1,12 @@
+================================================================================
+Checklist NIST CSF - NexTrace
+Autor: Diogo Felde
+Local: Santo André - SP, Brasil
+Data: 19/09/2025 16:04
+================================================================================
+Identify [ ] Protect [ ] Detect [ ] Respond [ ] Recover [ ]
+- Identificar: CMDB completo e riscos mapeados
+- Proteger: Hardening, RBAC, backup
+- Detectar: SIEM, TI, detecção por comportamento
+- Responder: SOAR, playbooks
+- Recuperar: Backups testados e DRP

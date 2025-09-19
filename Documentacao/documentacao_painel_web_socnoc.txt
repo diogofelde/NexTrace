@@ -1,0 +1,27 @@
+================================================================================
+Documentação - Painel Web SOC/NOC
+Autor: Diogo Felde
+Local: Santo André - SP, Brasil
+Data: 19/09/2025 16:35
+================================================================================
+Componentes:
+- index.html: Interface visual principal
+- style.css: Estilo da interface
+- api.ps1: Backend que executa os módulos
+- Logs: Gerados em \Logs\web_YYYYMMDD_HHmm.log
+
+Módulos integrados:
+- SOAR: Bloquear IP
+- Compliance: Relatório mensal
+- TI: Coleta de feeds IOC
+- Forense: Coleta de evidências
+- Monitoramento: Status de serviços
+- Backup: Execução manual
+- CMDB: Visualização de inventário
+- Painel Executivo: KPIs estratégicos
+- Documentação: Acesso aos modelos e relatórios
+
+Requisitos:
+- IIS habilitado com suporte a scripts PowerShell
+- Permissões administrativas para execução dos módulos
+================================================================================

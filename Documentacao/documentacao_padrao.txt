@@ -1,0 +1,10 @@
+﻿================================================================================
+  Documentação Técnica - NexTrace
+  Autor: Diogo Felde
+  Data: 19/09/2025 13:55
+  Conteúdo:
+    - Procedimentos operacionais padrão (SOP)
+    - Ferramentas instaladas por módulo
+    - Fluxos de resposta e automação
+    - Estrutura de auditoria e compliance
+================================================================================

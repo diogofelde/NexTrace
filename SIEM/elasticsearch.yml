@@ -1,0 +1,11 @@
+﻿# ================================================================================
+# Elasticsearch Config - NexTrace
+# Autor: Diogo Felde
+# ================================================================================
+cluster.name: nextrace-cluster
+node.name: nextrace-node-1
+path.data: E:\NexTraceWeb\nextrace\SIEM\data
+path.logs: E:\NexTraceWeb\nextrace\SIEM\logs
+network.host: 0.0.0.0
+http.port: 9200
+discovery.type: single-node

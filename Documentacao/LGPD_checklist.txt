@@ -1,0 +1,11 @@
+================================================================================
+Checklist LGPD - NexTrace
+Autor: Diogo Felde
+Local: Santo André - SP, Brasil
+Data: 19/09/2025 16:04
+================================================================================
+- Inventário de dados pessoais atualizado? [ ]
+- Bases legais mapeadas? [ ]
+- Registros de acesso a dados sensíveis? [ ]
+- Plano de resposta a incidente com dados pessoais? [ ]
+- Retenção e descarte definidos? [ ]

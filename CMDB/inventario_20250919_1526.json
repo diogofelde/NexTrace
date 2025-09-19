@@ -1,0 +1,1851 @@
+﻿{
+    "Autor":  "Diogo Felde",
+    "Data":  "19/09/2025 15:26:51",
+    "Hostname":  "DESKTOP-8OGMG8M",
+    "Dominio":  "WORKGROUP",
+    "SO":  {
+               "Caption":  "Microsoft Windows 11 Pro for Workstations",
+               "Version":  "10.0.26100",
+               "OSArchitecture":  "64 bits"
+           },
+    "Hardware":  {
+                     "Manufacturer":  "BIOSTAR Group",
+                     "Model":  "H81MHV3 3.0",
+                     "TotalPhysicalMemory":  17096056832
+                 },
+    "CPU":  {
+                "Name":  "Intel(R) Core(TM) i5-4570 CPU @ 3.20GHz",
+                "NumberOfCores":  4,
+                "NumberOfLogicalProcessors":  4
+            },
+    "MemoriaGB":  15.92,
+    "NICs":  [
+                 {
+                     "Descricao":  "Realtek(R) PCI(e) Ethernet Controller",
+                     "IPv4":  "192.168.0.107,fe80::f6dd:3d52:c024:537d,2804:14d:78b6:4270:4d59:2679:153c:2240,2804:14d:78b6:4270:60a5:ceb:1f88:5966,2804:14d:78b6:4270::42d2",
+                     "MAC":  "F4:B5:20:4C:94:E8"
+                 },
+                 {
+                     "Descricao":  "VirtualBox Host-Only Ethernet Adapter",
+                     "IPv4":  "192.168.56.1,fe80::bf65:df98:de3:234d",
+                     "MAC":  "0A:00:27:00:00:0D"
+                 }
+             ],
+    "Discos":  [
+                   {
+                       "DriveLetter":  "C",
+                       "FileSystemLabel":  "SSD_DIOGO_1",
+                       "FileSystem":  "NTFS",
+                       "TamanhoGB":  110,
+                       "LivreGB":  1.54
+                   },
+                   {
+                       "DriveLetter":  null,
+                       "FileSystemLabel":  "",
+                       "FileSystem":  "NTFS",
+                       "TamanhoGB":  0.72,
+                       "LivreGB":  0.11
+                   },
+                   {
+                       "DriveLetter":  "E",
+                       "FileSystemLabel":  "SSD_DIOGO_2",
+                       "FileSystem":  "NTFS",
+                       "TamanhoGB":  223.57,
+                       "LivreGB":  208.03
+                   },
+                   {
+                       "DriveLetter":  "D",
+                       "FileSystemLabel":  "HD_DIOGO",
+                       "FileSystem":  "NTFS",
+                       "TamanhoGB":  465.76,
+                       "LivreGB":  336.61
+                   }
+               ],
+    "UsuariosLoc":  [
+                        {
+                            "Name":  "Administrador",
+                            "Enabled":  false,
+                            "LastLogon":  null
+                        },
+                        {
+                            "Name":  "Convidado",
+                            "Enabled":  false,
+                            "LastLogon":  null
+                        },
+                        {
+                            "Name":  "DefaultAccount",
+                            "Enabled":  false,
+                            "LastLogon":  null
+                        },
+                        {
+                            "Name":  "Diogo",
+                            "Enabled":  true,
+                            "LastLogon":  "\/Date(1758290401100)\/"
+                        },
+                        {
+                            "Name":  "WDAGUtilityAccount",
+                            "Enabled":  false,
+                            "LastLogon":  null
+                        }
+                    ],
+    "Softwares":  [
+                      {
+                          "DisplayName":  "AutoHotkey",
+                          "DisplayVersion":  "2.0.19",
+                          "Publisher":  "AutoHotkey Foundation LLC",
+                          "InstallDate":  null
+                      },
+                      {
+                          "DisplayName":  "Docker Desktop",
+                          "DisplayVersion":  "4.46.0",
+                          "Publisher":  "Docker Inc.",
+                          "InstallDate":  null
+                      },
+                      {
+                          "DisplayName":  "Git",
+                          "DisplayVersion":  "2.51.0",
+                          "Publisher":  "The Git Development Community",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Notepad++ (64-bit x64)",
+                          "DisplayVersion":  "8.8.5",
+                          "Publisher":  "Notepad++ Team",
+                          "InstallDate":  null
+                      },
+                      {
+                          "DisplayName":  "Microsoft OneDrive",
+                          "DisplayVersion":  "25.159.0817.0003",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  null
+                      },
+                      {
+                          "DisplayName":  "OpenSSL 3.5.2 (64-bit)",
+                          "DisplayVersion":  "3.5.2",
+                          "Publisher":  "OpenSSL Win64 Installer Team",
+                          "InstallDate":  "20250916"
+                      },
+                      {
+                          "DisplayName":  "Microsoft Office Professional Plus 2024 - en-us",
+                          "DisplayVersion":  "16.0.19127.20240",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  null
+                      },
+                      {
+                          "DisplayName":  "Microsoft Office Professional Plus 2024 - pt-br",
+                          "DisplayVersion":  "16.0.19127.20240",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  null
+                      },
+                      {
+                          "DisplayName":  "Microsoft.NET.Workload.Emscripten.net6.Manifest (x64)",
+                          "DisplayVersion":  "72.48.39204",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250910"
+                      },
+                      {
+                          "DisplayName":  "Microsoft .NET AppHost Pack - 8.0.20 (x64_x86)",
+                          "DisplayVersion":  "64.80.39230",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "IIS Express Application Compatibility Database for x64",
+                          "DisplayVersion":  null,
+                          "Publisher":  null,
+                          "InstallDate":  null
+                      },
+                      {
+                          "DisplayName":  "IIS 10.0 Express",
+                          "DisplayVersion":  "10.0.10007",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250915"
+                      },
+                      {
+                          "DisplayName":  "Microsoft.NET.Sdk.macOS.Manifest-9.0.100 (x64)",
+                          "DisplayVersion":  "15.0.9617",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250903"
+                      },
+                      {
+                          "DisplayName":  "Python 3.12.10 Documentation (64-bit)",
+                          "DisplayVersion":  "3.12.10150.0",
+                          "Publisher":  "Python Software Foundation",
+                          "InstallDate":  "20250915"
+                      },
+                      {
+                          "DisplayName":  "Python 3.12.7 Core Interpreter (64-bit)",
+                          "DisplayVersion":  "3.12.7150.0",
+                          "Publisher":  "Python Software Foundation",
+                          "InstallDate":  "20250916"
+                      },
+                      {
+                          "DisplayName":  "Python 3.14.0rc2 Documentation (64-bit)",
+                          "DisplayVersion":  "3.14.122.0",
+                          "Publisher":  "Python Software Foundation",
+                          "InstallDate":  "20250915"
+                      },
+                      {
+                          "DisplayName":  "Warsaw 2.44.0.16 64 bits",
+                          "DisplayVersion":  "2.44.0.16",
+                          "Publisher":  "Topaz",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Oracle VirtualBox 7.2.0",
+                          "DisplayVersion":  "7.2.0",
+                          "Publisher":  "Oracle and/or its affiliates",
+                          "InstallDate":  "20250901"
+                      },
+                      {
+                          "DisplayName":  "Python 3.13.7 Add to Path (64-bit)",
+                          "DisplayVersion":  "3.13.7150.0",
+                          "Publisher":  "Python Software Foundation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Python 3.14.0rc2 pip Bootstrap (64-bit)",
+                          "DisplayVersion":  "3.14.122.0",
+                          "Publisher":  "Python Software Foundation",
+                          "InstallDate":  "20250915"
+                      },
+                      {
+                          "DisplayName":  "Windows App Certification Kit Native Components",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft ASP.NET Core 8.0.20 Targeting Pack (x64)",
+                          "DisplayVersion":  "8.0.20.25420",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft.NET.Sdk.Aspire.Manifest-8.0.100 (x64)",
+                          "DisplayVersion":  "64.136.23253",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250903"
+                      },
+                      {
+                          "DisplayName":  "Microsoft .NET 9.0 Templates 9.0.305 (x64)",
+                          "DisplayVersion":  "36.11.52288",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250910"
+                      },
+                      {
+                          "DisplayName":  "Python 3.12.7 Documentation (64-bit)",
+                          "DisplayVersion":  "3.12.7150.0",
+                          "Publisher":  "Python Software Foundation",
+                          "InstallDate":  "20250916"
+                      },
+                      {
+                          "DisplayName":  "Microsoft.NET.Sdk.Maui.Manifest-9.0.100 (x64)",
+                          "DisplayVersion":  "9.0.0",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250903"
+                      },
+                      {
+                          "DisplayName":  "Microsoft .NET AppHost Pack - 9.0.9 (x64)",
+                          "DisplayVersion":  "72.36.39216",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250910"
+                      },
+                      {
+                          "DisplayName":  "Python 3.13.7 Test Suite (64-bit debug)",
+                          "DisplayVersion":  "3.13.7150.0",
+                          "Publisher":  "Python Software Foundation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "vs_communityx64msi",
+                          "DisplayVersion":  "17.14.36025",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft.NET.Sdk.MacCatalyst.Manifest-9.0.100 (x64)",
+                          "DisplayVersion":  "18.0.9617",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250903"
+                      },
+                      {
+                          "DisplayName":  "Python 3.13.7 Tcl/Tk Support (64-bit symbols)",
+                          "DisplayVersion":  "3.13.7150.0",
+                          "Publisher":  "Python Software Foundation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft .NET Runtime - 8.0.20 (x64)",
+                          "DisplayVersion":  "64.80.39230",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft Command Line Utilities 15 for SQL Server",
+                          "DisplayVersion":  "15.0.1300.359",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Python 3.13.7 Freethreaded Interpreter (64-bit symbols)",
+                          "DisplayVersion":  "3.13.7150.0",
+                          "Publisher":  "Python Software Foundation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft Visual C++ 2022 X64 Minimum Runtime - 14.50.35503",
+                          "DisplayVersion":  "14.50.35503",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250915"
+                      },
+                      {
+                          "DisplayName":  "Microsoft .NET AppHost Pack - 9.0.9 (x64_x86)",
+                          "DisplayVersion":  "72.36.39216",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250910"
+                      },
+                      {
+                          "DisplayName":  "Python 3.12.10 Add to Path (64-bit)",
+                          "DisplayVersion":  "3.12.10150.0",
+                          "Publisher":  "Python Software Foundation",
+                          "InstallDate":  "20250915"
+                      },
+                      {
+                          "DisplayName":  "Microsoft ASP.NET Core 9.0.9 Targeting Pack (x64)",
+                          "DisplayVersion":  "9.0.9.25420",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250910"
+                      },
+                      {
+                          "DisplayName":  "Python 3.13.7 Standard Library (64-bit debug)",
+                          "DisplayVersion":  "3.13.7150.0",
+                          "Publisher":  "Python Software Foundation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft ODBC Driver 17 for SQL Server",
+                          "DisplayVersion":  "17.10.6.1",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft.NET.Workload.Mono.Toolchain.Current.Manifest (x64)",
+                          "DisplayVersion":  "72.0.39216",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250910"
+                      },
+                      {
+                          "DisplayName":  "Microsoft .NET Targeting Pack - 8.0.20 (x64)",
+                          "DisplayVersion":  "64.80.39230",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft .NET Toolset 9.0.305 (x64)",
+                          "DisplayVersion":  "36.9.52288",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250910"
+                      },
+                      {
+                          "DisplayName":  "vs_minshellx64msi",
+                          "DisplayVersion":  "17.14.36301",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Python 3.13.7 Development Libraries (64-bit debug)",
+                          "DisplayVersion":  "3.13.7150.0",
+                          "Publisher":  "Python Software Foundation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "vs_devenx64vmsi",
+                          "DisplayVersion":  "17.14.36015",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "vs_Graphics_Singletonx64",
+                          "DisplayVersion":  "17.14.36015",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft .NET SDK 9.0.305 (x64) from Visual Studio",
+                          "DisplayVersion":  "9.3.525.42112",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Python 3.13.7 Tcl/Tk Support (64-bit debug)",
+                          "DisplayVersion":  "3.13.7150.0",
+                          "Publisher":  "Python Software Foundation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft System CLR Types para SQL Server 2019",
+                          "DisplayVersion":  "15.0.2000.5",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Java SE Development Kit 8 Update 461 (64-bit)",
+                          "DisplayVersion":  "8.0.4610.11",
+                          "Publisher":  "Oracle Corporation",
+                          "InstallDate":  "20250916"
+                      },
+                      {
+                          "DisplayName":  "Microsoft .NET AppHost Pack - 9.0.9 (x64_arm64)",
+                          "DisplayVersion":  "72.36.39216",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250910"
+                      },
+                      {
+                          "DisplayName":  "Python 3.12.7 pip Bootstrap (64-bit)",
+                          "DisplayVersion":  "3.12.7150.0",
+                          "Publisher":  "Python Software Foundation",
+                          "InstallDate":  "20250916"
+                      },
+                      {
+                          "DisplayName":  "Python 3.13.7 Core Interpreter (64-bit symbols)",
+                          "DisplayVersion":  "3.13.7150.0",
+                          "Publisher":  "Python Software Foundation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Python 3.13.7 Test Suite (64-bit)",
+                          "DisplayVersion":  "3.13.7150.0",
+                          "Publisher":  "Python Software Foundation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "VS JIT Debugger",
+                          "DisplayVersion":  "17.0.157.0",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft.NET.Sdk.Android.Manifest-9.0.100 (x64)",
+                          "DisplayVersion":  "35.0.78",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "icecap_collection_x64",
+                          "DisplayVersion":  "17.14.36015",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft Visual Studio Installer",
+                          "DisplayVersion":  "3.14.2086.54749",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Python 3.13.7 Standard Library (64-bit symbols)",
+                          "DisplayVersion":  "3.13.7150.0",
+                          "Publisher":  "Python Software Foundation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Java 8 Update 461 (64-bit)",
+                          "DisplayVersion":  "8.0.4610.11",
+                          "Publisher":  "Oracle Corporation",
+                          "InstallDate":  "20250916"
+                      },
+                      {
+                          "DisplayName":  "Microsoft.NET.Sdk.iOS.Manifest-9.0.100 (x64)",
+                          "DisplayVersion":  "18.0.9617",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250903"
+                      },
+                      {
+                          "DisplayName":  "Microsoft Windows Desktop Runtime - 9.0.9 (x64)",
+                          "DisplayVersion":  "72.36.39253",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250910"
+                      },
+                      {
+                          "DisplayName":  "Python 3.12.10 Tcl/Tk Support (64-bit)",
+                          "DisplayVersion":  "3.12.10150.0",
+                          "Publisher":  "Python Software Foundation",
+                          "InstallDate":  "20250915"
+                      },
+                      {
+                          "DisplayName":  "Microsoft .NET Host FX Resolver - 9.0.9 (x64)",
+                          "DisplayVersion":  "72.36.39216",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250910"
+                      },
+                      {
+                          "DisplayName":  "Microsoft.NET.Sdk.Android.Manifest-9.0.100 (x64)",
+                          "DisplayVersion":  "35.0.7",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250903"
+                      },
+                      {
+                          "DisplayName":  "Microsoft .NET 8.0 Templates 8.0.414 (x64)",
+                          "DisplayVersion":  "32.13.52286",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Python 3.13.7 Core Interpreter (64-bit debug)",
+                          "DisplayVersion":  "3.13.7150.0",
+                          "Publisher":  "Python Software Foundation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft Windows Desktop Targeting Pack - 9.0.9 (x64)",
+                          "DisplayVersion":  "72.36.39253",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250910"
+                      },
+                      {
+                          "DisplayName":  "Python 3.13.7 Executables (64-bit symbols)",
+                          "DisplayVersion":  "3.13.7150.0",
+                          "Publisher":  "Python Software Foundation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft.NET.Sdk.tvOS.Manifest-9.0.100 (x64)",
+                          "DisplayVersion":  "18.5.9214",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft .NET Host - 9.0.9 (x64)",
+                          "DisplayVersion":  "72.36.39216",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250910"
+                      },
+                      {
+                          "DisplayName":  "Windows Subsystem for Linux",
+                          "DisplayVersion":  "2.6.1.0",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250912"
+                      },
+                      {
+                          "DisplayName":  "Python 3.12.7 Executables (64-bit)",
+                          "DisplayVersion":  "3.12.7150.0",
+                          "Publisher":  "Python Software Foundation",
+                          "InstallDate":  "20250916"
+                      },
+                      {
+                          "DisplayName":  "Python 3.14.0rc2 Standard Library (64-bit)",
+                          "DisplayVersion":  "3.14.122.0",
+                          "Publisher":  "Python Software Foundation",
+                          "InstallDate":  "20250915"
+                      },
+                      {
+                          "DisplayName":  "Office 16 Click-to-Run Extensibility Component",
+                          "DisplayVersion":  "16.0.19127.20154",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250917"
+                      },
+                      {
+                          "DisplayName":  "Office 16 Click-to-Run Localization Component",
+                          "DisplayVersion":  "16.0.19127.20154",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250917"
+                      },
+                      {
+                          "DisplayName":  "Python 3.12.7 Test Suite (64-bit)",
+                          "DisplayVersion":  "3.12.7150.0",
+                          "Publisher":  "Python Software Foundation",
+                          "InstallDate":  "20250916"
+                      },
+                      {
+                          "DisplayName":  "Python 3.14.0rc2 Development Libraries (64-bit)",
+                          "DisplayVersion":  "3.14.122.0",
+                          "Publisher":  "Python Software Foundation",
+                          "InstallDate":  "20250915"
+                      },
+                      {
+                          "DisplayName":  "Python 3.13.7 Test Suite (64-bit symbols)",
+                          "DisplayVersion":  "3.13.7150.0",
+                          "Publisher":  "Python Software Foundation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Python 3.13.7 Development Libraries (64-bit)",
+                          "DisplayVersion":  "3.13.7150.0",
+                          "Publisher":  "Python Software Foundation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft.NET.Workload.Emscripten.net7.Manifest (x64)",
+                          "DisplayVersion":  "72.48.39204",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250910"
+                      },
+                      {
+                          "DisplayName":  "Python 3.12.7 Tcl/Tk Support (64-bit)",
+                          "DisplayVersion":  "3.12.7150.0",
+                          "Publisher":  "Python Software Foundation",
+                          "InstallDate":  "20250916"
+                      },
+                      {
+                          "DisplayName":  "Microsoft .NET AppHost Pack - 8.0.20 (x64)",
+                          "DisplayVersion":  "64.80.39230",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Python 3.12.7 Add to Path (64-bit)",
+                          "DisplayVersion":  "3.12.7150.0",
+                          "Publisher":  "Python Software Foundation",
+                          "InstallDate":  "20250916"
+                      },
+                      {
+                          "DisplayName":  "Microsoft .NET Standard Targeting Pack - 2.1.0 (x64)",
+                          "DisplayVersion":  "24.0.28113",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250903"
+                      },
+                      {
+                          "DisplayName":  "Microsoft Teams Meeting Add-in for Microsoft Office",
+                          "DisplayVersion":  "1.25.18302",
+                          "Publisher":  "Microsoft",
+                          "InstallDate":  "20250831"
+                      },
+                      {
+                          "DisplayName":  "Microsoft.NET.Sdk.Maui.Manifest-9.0.100 (x64)",
+                          "DisplayVersion":  "9.0.82",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Application Verifier x64 External Package (DesktopEditions)",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "IIS Express Application Compatibility Database for x86",
+                          "DisplayVersion":  null,
+                          "Publisher":  null,
+                          "InstallDate":  null
+                      },
+                      {
+                          "DisplayName":  "Microsoft Build of OpenJDK  17.0.14+7 (x64)",
+                          "DisplayVersion":  "17.0.14.7",
+                          "Publisher":  "Microsoft",
+                          "InstallDate":  "20250915"
+                      },
+                      {
+                          "DisplayName":  "vs_minshellinteropx64msi",
+                          "DisplayVersion":  "17.14.36015",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Python 3.14.0rc2 Test Suite (64-bit)",
+                          "DisplayVersion":  "3.14.122.0",
+                          "Publisher":  "Python Software Foundation",
+                          "InstallDate":  "20250915"
+                      },
+                      {
+                          "DisplayName":  "Go Programming Language amd64 go1.25.0",
+                          "DisplayVersion":  "1.25.0",
+                          "Publisher":  "https://go.dev",
+                          "InstallDate":  "20250903"
+                      },
+                      {
+                          "DisplayName":  "Microsoft SQL Server 2025 LocalDB CTP2.1",
+                          "DisplayVersion":  "17.0.800.3",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250915"
+                      },
+                      {
+                          "DisplayName":  "Microsoft.NET.Sdk.macOS.Manifest-9.0.100 (x64)",
+                          "DisplayVersion":  "15.5.9214",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Node.js",
+                          "DisplayVersion":  "24.8.0",
+                          "Publisher":  "Node.js Foundation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Python 3.13.7 Core Interpreter (64-bit)",
+                          "DisplayVersion":  "3.13.7150.0",
+                          "Publisher":  "Python Software Foundation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft Visual C++ 2022 X64 Additional Runtime - 14.50.35503",
+                          "DisplayVersion":  "14.50.35503",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250915"
+                      },
+                      {
+                          "DisplayName":  "Python 3.14.0rc2 Tcl/Tk Support (64-bit)",
+                          "DisplayVersion":  "3.14.122.0",
+                          "Publisher":  "Python Software Foundation",
+                          "InstallDate":  "20250915"
+                      },
+                      {
+                          "DisplayName":  "Python 3.13.7 Executables (64-bit debug)",
+                          "DisplayVersion":  "3.13.7150.0",
+                          "Publisher":  "Python Software Foundation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "DiagnosticsHub_CollectionService",
+                          "DisplayVersion":  "17.14.36412",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Python 3.14.0rc2 Add to Path (64-bit)",
+                          "DisplayVersion":  "3.14.122.0",
+                          "Publisher":  "Python Software Foundation",
+                          "InstallDate":  "20250915"
+                      },
+                      {
+                          "DisplayName":  "Python 3.12.10 pip Bootstrap (64-bit)",
+                          "DisplayVersion":  "3.12.10150.0",
+                          "Publisher":  "Python Software Foundation",
+                          "InstallDate":  "20250915"
+                      },
+                      {
+                          "DisplayName":  "Python 3.13.7 pip Bootstrap (64-bit)",
+                          "DisplayVersion":  "3.13.7150.0",
+                          "Publisher":  "Python Software Foundation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft.NET.Sdk.MacCatalyst.Manifest-9.0.100 (x64)",
+                          "DisplayVersion":  "18.5.9214",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft.NET.Workload.Mono.Toolchain.net7.Manifest (x64)",
+                          "DisplayVersion":  "72.0.39216",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250910"
+                      },
+                      {
+                          "DisplayName":  "Microsoft.NET.Sdk.tvOS.Manifest-9.0.100 (x64)",
+                          "DisplayVersion":  "18.0.9617",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250903"
+                      },
+                      {
+                          "DisplayName":  "Windows SDK DirectX x64 Remote",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft Windows Desktop Runtime - 8.0.20 (x64)",
+                          "DisplayVersion":  "64.80.39251",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft Windows Desktop Targeting Pack - 8.0.20 (x64)",
+                          "DisplayVersion":  "64.80.39251",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Application Verifier x64 External Package (OnecoreUAP)",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft.NET.Workload.Mono.Toolchain.net6.Manifest (x64)",
+                          "DisplayVersion":  "72.0.39216",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250910"
+                      },
+                      {
+                          "DisplayName":  "Python 3.12.10 Standard Library (64-bit)",
+                          "DisplayVersion":  "3.12.10150.0",
+                          "Publisher":  "Python Software Foundation",
+                          "InstallDate":  "20250915"
+                      },
+                      {
+                          "DisplayName":  "Microsoft Web Deploy 4.0",
+                          "DisplayVersion":  "10.0.9419",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250915"
+                      },
+                      {
+                          "DisplayName":  "PowerShell 7-preview-x64",
+                          "DisplayVersion":  "7.6.0.4",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250910"
+                      },
+                      {
+                          "DisplayName":  "Universal CRT Tools x64",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft.NET.Sdk.iOS.Manifest-9.0.100 (x64)",
+                          "DisplayVersion":  "18.5.9214",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Python 3.13.7 Freethreaded Interpreter (64-bit debug)",
+                          "DisplayVersion":  "3.13.7150.0",
+                          "Publisher":  "Python Software Foundation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Python 3.13.7 Executables (64-bit)",
+                          "DisplayVersion":  "3.13.7150.0",
+                          "Publisher":  "Python Software Foundation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft.NET.Workload.Emscripten.Current.Manifest (x64)",
+                          "DisplayVersion":  "72.48.39204",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250910"
+                      },
+                      {
+                          "DisplayName":  "Microsoft SQL Server 2019 LocalDB ",
+                          "DisplayVersion":  "15.0.4382.1",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft ASP.NET Core 9.0.9 Shared Framework (x64)",
+                          "DisplayVersion":  "9.0.9.25420",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250910"
+                      },
+                      {
+                          "DisplayName":  "Python 3.12.7 Development Libraries (64-bit)",
+                          "DisplayVersion":  "3.12.7150.0",
+                          "Publisher":  "Python Software Foundation",
+                          "InstallDate":  "20250916"
+                      },
+                      {
+                          "DisplayName":  "Microsoft.NET.Workload.Emscripten.net8.Manifest (x64)",
+                          "DisplayVersion":  "72.48.39204",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250910"
+                      },
+                      {
+                          "DisplayName":  "Microsoft ASP.NET Core 8.0.20 Shared Framework (x64)",
+                          "DisplayVersion":  "8.0.20.25420",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Python 3.12.10 Development Libraries (64-bit)",
+                          "DisplayVersion":  "3.12.10150.0",
+                          "Publisher":  "Python Software Foundation",
+                          "InstallDate":  "20250915"
+                      },
+                      {
+                          "DisplayName":  "Microsoft .NET Targeting Pack - 9.0.9 (x64)",
+                          "DisplayVersion":  "72.36.39216",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250910"
+                      },
+                      {
+                          "DisplayName":  "Microsoft ASP.NET Core Module V2 for IIS Express",
+                          "DisplayVersion":  "17.0.22116.0",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "VS Script Debugging Common",
+                          "DisplayVersion":  "17.0.157.0",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "IntelliTraceProfilerProxy",
+                          "DisplayVersion":  "15.0.21225.01",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Python 3.13.7 Freethreaded Interpreter (64-bit)",
+                          "DisplayVersion":  "3.13.7150.0",
+                          "Publisher":  "Python Software Foundation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft ASP.NET Core Module for IIS Express",
+                          "DisplayVersion":  "12.2.18292.0",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft .NET AppHost Pack - 8.0.20 (x64_arm64)",
+                          "DisplayVersion":  "64.80.39230",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft .NET Runtime - 9.0.9 (x64)",
+                          "DisplayVersion":  "72.36.39216",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250910"
+                      },
+                      {
+                          "DisplayName":  "Microsoft Visual C++ 2022 X64 Debug Runtime - 14.44.35211",
+                          "DisplayVersion":  "14.44.35211",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft.NET.Workload.Mono.Toolchain.net8.Manifest (x64)",
+                          "DisplayVersion":  "72.0.39216",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250910"
+                      },
+                      {
+                          "DisplayName":  "Python 3.12.7 Standard Library (64-bit)",
+                          "DisplayVersion":  "3.12.7150.0",
+                          "Publisher":  "Python Software Foundation",
+                          "InstallDate":  "20250916"
+                      },
+                      {
+                          "DisplayName":  "Visual Studio Community 2022",
+                          "DisplayVersion":  "17.14.15 (September 2025)",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Google Chrome",
+                          "DisplayVersion":  "140.0.7339.128",
+                          "Publisher":  "Google LLC",
+                          "InstallDate":  "20250911"
+                      },
+                      {
+                          "DisplayName":  "Microsoft Edge",
+                          "DisplayVersion":  "140.0.3485.66",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250913"
+                      },
+                      {
+                          "DisplayName":  "Microsoft Edge WebView2 Runtime",
+                          "DisplayVersion":  "140.0.3485.66",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250912"
+                      },
+                      {
+                          "DisplayName":  "Nmap 7.98",
+                          "DisplayVersion":  "7.98",
+                          "Publisher":  "Nmap Project",
+                          "InstallDate":  null
+                      },
+                      {
+                          "DisplayName":  "Npcap",
+                          "DisplayVersion":  "1.83",
+                          "Publisher":  "Nmap Project",
+                          "InstallDate":  null
+                      },
+                      {
+                          "DisplayName":  "OBS Studio",
+                          "DisplayVersion":  "31.1.2",
+                          "Publisher":  "OBS Project",
+                          "InstallDate":  null
+                      },
+                      {
+                          "DisplayName":  "Wireshark 4.4.9 x64",
+                          "DisplayVersion":  "4.4.9",
+                          "Publisher":  "The Wireshark developer community, https://www.wireshark.org",
+                          "InstallDate":  null
+                      },
+                      {
+                          "DisplayName":  "Windows SDK Desktop Headers x86",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "WinRT Intellisense PPI - en-us",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Universal CRT Redistributable",
+                          "DisplayVersion":  "10.0.26624",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "WinRT Intellisense Desktop - Other Languages",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft Windows Desktop Targeting Pack - 9.0.9 (x86)",
+                          "DisplayVersion":  "72.36.39253",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft ASP.NET Core 8.0.20 Shared Framework (x86)",
+                          "DisplayVersion":  "8.0.20.25420",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Windows SDK Desktop Tools arm64",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft Visual C++ 2015-2022 Redistributable (x86) - 14.44.35211",
+                          "DisplayVersion":  "14.44.35211.0",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  null
+                      },
+                      {
+                          "DisplayName":  "Microsoft .NET Targeting Pack - 9.0.9 (x86)",
+                          "DisplayVersion":  "72.36.39216",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Universal CRT Extension SDK",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft .NET CoreRuntime SDK",
+                          "DisplayVersion":  "1.1.27004.0",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Windows SDK EULA",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporations",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft .NET Framework 4.7.2 Targeting Pack",
+                          "DisplayVersion":  "4.7.03062",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Windows Mobile Extension SDK",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "vs_CoreEditorFonts",
+                          "DisplayVersion":  "17.7.40001",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250915"
+                      },
+                      {
+                          "DisplayName":  "vs_clickoncebootstrappermsi",
+                          "DisplayVersion":  "17.14.36015",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "vs_tipsmsi",
+                          "DisplayVersion":  "17.14.36015",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft Windows Desktop Runtime - 8.0.20 (x86)",
+                          "DisplayVersion":  "64.80.39251",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Windows SDK Desktop Libs x86",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "vs_filehandler_amd64",
+                          "DisplayVersion":  "17.14.36024",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Entity Framework 6.5.0 Tools  for Visual Studio 2022",
+                          "DisplayVersion":  "6.5.0.0",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "vs_githubprotocolhandlermsi",
+                          "DisplayVersion":  "17.14.36015",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "WinRT Intellisense PPI - Other Languages",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Windows SDK Desktop Headers x64",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Pacote de Direcionamento do Microsoft .NET Framework 4.8 (Português (Brasil))",
+                          "DisplayVersion":  "4.8.03761",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Windows Software Development Kit - Windows 10.0.26100.4654",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  null
+                      },
+                      {
+                          "DisplayName":  "SDK ARM64 Redistributables",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft ASP.NET Core 8.0.20 Targeting Pack (x86)",
+                          "DisplayVersion":  "8.0.20.25420",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Windows App Certification Kit x64",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Windows SDK OnecoreUap Headers x86",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Windows SDK for Windows Store Apps Libs",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Windows SDK Facade Windows WinMD Versioned",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Windows Desktop Extension SDK Contracts",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Suricata IDS/IPS 2.0.2-1-32bit",
+                          "DisplayVersion":  "1.4",
+                          "Publisher":  "Open Information Security Foundation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "MSI Development Tools",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Windows Desktop Extension SDK",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft .NET CoreRuntime For CoreCon",
+                          "DisplayVersion":  "1.0.0.0",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Python 3.13.6 Documentation (32-bit)",
+                          "DisplayVersion":  "3.13.6150.0",
+                          "Publisher":  "Python Software Foundation",
+                          "InstallDate":  "20250915"
+                      },
+                      {
+                          "DisplayName":  "vs_communitymsires",
+                          "DisplayVersion":  "17.14.36015",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft Visual Studio Setup WMI Provider",
+                          "DisplayVersion":  "3.12.2140.44225",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Windows SDK for Windows Store Apps Metadata",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Java Auto Updater",
+                          "DisplayVersion":  "2.8.461.11",
+                          "Publisher":  "Oracle Corporation",
+                          "InstallDate":  "20250916"
+                      },
+                      {
+                          "DisplayName":  "Pacote de Direcionamento do Microsoft .NET Framework 4.7.2 (Português (Brasil))",
+                          "DisplayVersion":  "4.7.03062",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "vs_clickoncesigntoolmsi",
+                          "DisplayVersion":  "17.14.36015",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Windows SDK Desktop Tools x86",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Windows SDK for Windows Store Managed Apps Libs",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "vs_minshellinteropsharedmsi",
+                          "DisplayVersion":  "17.14.36015",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Windows SDK Desktop Libs x64",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "vcpp_crt.redist.clickonce",
+                          "DisplayVersion":  "14.44.35211",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Windows SDK Redistributables",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Windows IoT Extension SDK Contracts",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft Visual C++ 2015-2022 Redistributable (x64) - 14.50.35503",
+                          "DisplayVersion":  "14.50.35503.0",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  null
+                      },
+                      {
+                          "DisplayName":  "Python 3.13.6 Tcl/Tk Support (32-bit)",
+                          "DisplayVersion":  "3.13.6150.0",
+                          "Publisher":  "Python Software Foundation",
+                          "InstallDate":  "20250915"
+                      },
+                      {
+                          "DisplayName":  "Visual C++ Library CRT ARM64 Appx Package",
+                          "DisplayVersion":  "14.44.35208",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Windows SDK Modern Versioned Developer Tools",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Windows SDK Desktop Libs arm64",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Windows SDK DirectX x86 Remote",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Windows SDK OnecoreUap Headers arm64",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "icecap_collectionresourcesx64",
+                          "DisplayVersion":  "17.14.36015",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "vs_filehandler_x86",
+                          "DisplayVersion":  "17.14.36024",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "WinRT Intellisense IoT - en-us",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Windows IoT Extension SDK",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft .NET Host FX Resolver - 9.0.9 (x86)",
+                          "DisplayVersion":  "72.36.39216",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "WinAppDeploy",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft ASP.NET Diagnostic Pack for Visual Studio",
+                          "DisplayVersion":  "17.14.122.59099",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Java 8 Update 461",
+                          "DisplayVersion":  "8.0.4610.11",
+                          "Publisher":  "Oracle Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "vs_communitysharedmsi",
+                          "DisplayVersion":  "17.14.36025",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "WPTx64 (OnecoreUAP)",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Windows SDK ARM64 Desktop Tools",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft NetStandard SDK",
+                          "DisplayVersion":  "15.0.51105",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "vs_vswebprotocolselectormsires",
+                          "DisplayVersion":  "17.14.36323",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Windows SDK for Windows Store Apps DirectX x86 Remote",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "WinRT Intellisense IoT - Other Languages",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft Windows Desktop Targeting Pack - 8.0.20 (x86)",
+                          "DisplayVersion":  "64.80.39251",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft .NET Runtime - 9.0.9 (x86)",
+                          "DisplayVersion":  "72.36.39216",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Windows SDK for Windows Store Apps Contracts",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft TestPlatform SDK Local Feed",
+                          "DisplayVersion":  "17.10.0.9037153",
+                          "Publisher":  "Microsoft",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Wazuh Agent",
+                          "DisplayVersion":  "4.12.0",
+                          "Publisher":  "Wazuh, Inc.",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Visual C++ Library CRT Appx Package",
+                          "DisplayVersion":  "14.44.35208",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Windows SDK for Windows Store Apps Headers OnecoreUap",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Windows SDK Modern Non-Versioned Developer Tools",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Universal General MIDI DLS Extension SDK",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Python Launcher",
+                          "DisplayVersion":  "3.13.7150.0",
+                          "Publisher":  "Python Software Foundation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "windows_toolscorepkg",
+                          "DisplayVersion":  "17.14.36015",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "vs_minshellmsires",
+                          "DisplayVersion":  "17.14.36015",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft Windows Desktop Runtime - 9.0.9 (x86)",
+                          "DisplayVersion":  "72.36.39253",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Kits Configuration Installer",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft Visual C++ 2022 X86 Minimum Runtime - 14.44.35211",
+                          "DisplayVersion":  "14.44.35211",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Visual C++ Library CRT Appx Package",
+                          "DisplayVersion":  "14.44.35208",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Windows App Certification Kit x64 (OnecoreUAP)",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft .NET Framework 4.8 SDK",
+                          "DisplayVersion":  "4.8.03928",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Windows SDK",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Visual C++ Library CRT Desktop Appx Package",
+                          "DisplayVersion":  "14.44.35208",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "vs_BlendMsi",
+                          "DisplayVersion":  "17.14.36015",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "WPT Redistributables",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "vs_clickoncebootstrappermsires",
+                          "DisplayVersion":  "17.14.36015",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft ASP.NET Core 9.0.9 Shared Framework (x86)",
+                          "DisplayVersion":  "9.0.9.25420",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft .NET Targeting Pack - 8.0.20 (x86)",
+                          "DisplayVersion":  "64.80.39230",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Windows SDK for Windows Store Apps Tools",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft .NET Runtime - 8.0.20 (x86)",
+                          "DisplayVersion":  "64.80.39230",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "WPTx64 (DesktopEditions)",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Windows Team Extension SDK Contracts",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft .NET SDK 9.0.305 (x64)",
+                          "DisplayVersion":  "9.3.525.42112",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  null
+                      },
+                      {
+                          "DisplayName":  "Windows App Certification Kit SupportedApiList x86",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "SDK do Microsoft .NET Framework 4.8 (Português (Brasil))",
+                          "DisplayVersion":  "4.8.03761",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Windows SDK for Windows Store Apps Headers",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft ASP.NET Core 9.0.9 Targeting Pack (x86)",
+                          "DisplayVersion":  "9.0.9.25420",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "vs_devenvsharedmsi",
+                          "DisplayVersion":  "17.14.36015",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "vs_vswebprotocolselectormsi",
+                          "DisplayVersion":  "17.14.36323",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Universal CRT Headers Libraries and Sources",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft .NET Framework 4.8 Targeting Pack",
+                          "DisplayVersion":  "4.8.03761",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Windows Team Extension SDK",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Visual C++ Library CRT Desktop Appx Package",
+                          "DisplayVersion":  "14.44.35208",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft Visual C++ 2022 X86 Debug Runtime - 14.44.35211",
+                          "DisplayVersion":  "14.44.35211",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "icecap_collection_neutral",
+                          "DisplayVersion":  "17.14.36015",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "WinRT Intellisense Mobile - en-us",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "ClickOnce Bootstrapper Package for Microsoft .NET Framework",
+                          "DisplayVersion":  "4.8.09256",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "VS Immersive Activate Helper",
+                          "DisplayVersion":  "17.0.157.0",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft Visual C++ 2022 X86 Additional Runtime - 14.44.35211",
+                          "DisplayVersion":  "14.44.35211",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "icecap_collectionresources",
+                          "DisplayVersion":  "17.14.36015",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Python 3.13.6 Development Libraries (32-bit)",
+                          "DisplayVersion":  "3.13.6150.0",
+                          "Publisher":  "Python Software Foundation",
+                          "InstallDate":  "20250915"
+                      },
+                      {
+                          "DisplayName":  "Microsoft UniversalWindowsPlatform SDK",
+                          "DisplayVersion":  "15.9.16",
+                          "Publisher":  "Microsoft",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "IntelliTraceProfilerProxy",
+                          "DisplayVersion":  "15.0.21225.01",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "WinRT Intellisense UAP - Other Languages",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Windows SDK Desktop Tools x64",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Visual C++ Library CRT Desktop Appx Package",
+                          "DisplayVersion":  "14.44.35208",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Universal CRT Redistributable",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft Visual Studio Setup Configuration",
+                          "DisplayVersion":  "3.12.2140.44225",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "vs_SQLClickOnceBootstrappermsi",
+                          "DisplayVersion":  "17.14.36015",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "vs_FileTracker_Singleton",
+                          "DisplayVersion":  "17.14.36015",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Windows SDK Signing Tools",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "vs_Graphics_Singletonx86",
+                          "DisplayVersion":  "17.14.36015",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Visual C++ Library CRT Appx Resource Package",
+                          "DisplayVersion":  "14.44.35208",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Windows SDK AddOn",
+                          "DisplayVersion":  "10.1.0.0",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250903"
+                      },
+                      {
+                          "DisplayName":  "Universal CRT Tools x86",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Windows SDK OnecoreUap Headers x64",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Windows SDK Desktop Headers arm64",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft .NET Host - 9.0.9 (x86)",
+                          "DisplayVersion":  "72.36.39216",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "WinRT Intellisense UAP - en-us",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Microsoft .NET Native SDK",
+                          "DisplayVersion":  "15.0.24211.07",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "SDK ARM64 Additions",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Intel(R) Processor Graphics",
+                          "DisplayVersion":  "20.19.15.4531",
+                          "Publisher":  "Intel Corporation",
+                          "InstallDate":  null
+                      },
+                      {
+                          "DisplayName":  "Windows Mobile Extension SDK Contracts",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Pacote IntelliSense Cumulativo do Microsoft .NET Framework para Visual Studio (Português do Brasil)",
+                          "DisplayVersion":  "4.8.09037",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "vs_minshellsharedmsi",
+                          "DisplayVersion":  "17.14.36024",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "WinRT Intellisense Desktop - en-us",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      },
+                      {
+                          "DisplayName":  "Windows SDK for Windows Store Apps",
+                          "DisplayVersion":  "10.1.26100.4654",
+                          "Publisher":  "Microsoft Corporation",
+                          "InstallDate":  "20250918"
+                      }
+                  ]
+}

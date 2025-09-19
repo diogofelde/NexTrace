@@ -1,0 +1,11 @@
+Grafana:
+- Datasource: Prometheus ou Zabbix
+- KPIs: uptime, alertas, incidentes
+
+Power BI:
+- Conectar ao CSV de relatórios
+- Gráficos de tendência e conformidade
+
+Zabbix:
+- Hosts monitorados: servidores, endpoints, rede
+- Templates: NexTrace-NOC, NexTrace-SIEM

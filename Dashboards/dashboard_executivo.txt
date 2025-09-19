@@ -1,0 +1,12 @@
+================================================================================
+Dashboard Executivo - NexTrace
+Autor: Diogo Felde
+Data: 19/09/2025 16:45
+================================================================================
+Indicadores:
+- Incidentes críticos semanais
+- Tempo médio de resposta (MTTR)
+- Disponibilidade de serviços
+- Vulnerabilidades abertas
+- Conformidade LGPD / ISO / NIST
+================================================================================

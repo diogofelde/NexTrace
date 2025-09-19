@@ -1,0 +1,12 @@
+================================================================================
+Modelo Relatório de Vulnerabilidades - NexTrace
+Autor: Diogo Felde
+Local: Santo André - SP, Brasil
+Data: 19/09/2025 16:04
+================================================================================
+- Escopo:
+- Ferramentas: Nmap, Nikto, Nuclei
+- Achados:
+- Severidades:
+- Recomendação:
+================================================================================
