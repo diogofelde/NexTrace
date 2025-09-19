@@ -1,0 +1,8 @@
+version: "3.9"
+services:
+  nextrace:
+    build: .
+    container_name: nextrace
+    ports:
+      - "8080:80"
+    restart: unless-stopped
