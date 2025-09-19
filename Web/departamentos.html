@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>NexTrace - Departamentos</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Escolha seu departamento</h2>
+  <select id="departamento">
+    <option value="red">Red Team</option>
+    <option value="blue">Blue Team</option>
+    <option value="forense">Forense</option>
+    <option value="intel">Threat Intelligence</option>
+  </select>
+  <button id="acessar">Acessar</button>
+
+  <script>
+    document.getElementById('acessar').onclick = async () => {
+      const dep = document.getElementById('departamento').value;
+      const res = await fetch(`/api/validate?dep=${dep}`);
+      const json = await res.json();
+      if (json.ok) {
+        window.location.href = "painel.html?dep=" + dep;
+      } else {
+        alert("Autenticação secundária falhou");
+      }
+    };
+  </script>
+</body>
+</html>
