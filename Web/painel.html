@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
@@ -8,7 +8,6 @@
 <body>
   <h2 id="titulo"></h2>
   <div id="ferramentas"></div>
-
   <script>
     const params = new URLSearchParams(window.location.search);
     const dep = params.get("dep");
@@ -19,14 +18,12 @@
       intel: "Painel Threat Intelligence"
     };
     document.getElementById("titulo").innerText = titulo[dep] || "Painel NexTrace";
-
     const ferramentas = {
       red: ["Scanner de vulnerabilidades", "Exploit toolkit"],
       blue: ["SIEM", "Dashboard de alertas"],
       forense: ["Analisador de logs", "Timeline de incidentes"],
       intel: ["Feeds de ameaças", "Relatórios de IOC"]
     };
-
     document.getElementById("ferramentas").innerHTML =
       "<ul>" + (ferramentas[dep] || []).map(f => `<li>${f}</li>`).join("") + "</ul>";
   </script>

@@ -1,4 +1,4 @@
-export default function handler(req, res) {
+﻿export default function handler(req, res) {
   const { dep } = req.query;
   if (dep) {
     res.status(200).json({ ok: true });

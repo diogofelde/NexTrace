@@ -1,4 +1,4 @@
-export default function handler(req, res) {
+﻿export default function handler(req, res) {
   const { user, pass } = req.query;
   if (user === "admin" && pass === "admin123") {
     res.status(200).json({ ok: true });
