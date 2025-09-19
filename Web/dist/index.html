@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+<head>
+  <meta charset='UTF-8'>
+  <title>NexTrace Painel SOC/NOC</title>
+  <link rel="stylesheet" crossorigin href="/assets/index-BMkpAMoC.css">
+</head>
+<body>
+  <h1>NexTrace - Painel SOC/NOC</h1>
+  <form id='painelForm'>
+    <label>Módulo:</label>
+    <select name='modulo'>
+      <option value='Executivo'>Executivo</option>
+      <option value='Compliance'>Compliance</option>
+      <option value='TI'>Threat Intelligence</option>
+      <option value='Forense'>Forense</option>
+      <option value='Monitoramento'>Monitoramento</option>
+      <option value='Backup'>Backup</option>
+      <option value='SOAR'>SOAR</option>
+      <option value='CMDB'>Inventário</option>
+      <option value='Documentacao'>Documentação</option>
+    </select><br><br>
+
+    <label>Parâmetro (se necessário):</label>
+    <input type='text' name='param' placeholder='IP, usuário, CaseID, etc.'><br><br>
+
+    <button type='submit'>Executar</button>
+  </form>
+
+  <pre id='output'></pre>
+
+  <script>
+    document.getElementById('painelForm').addEventListener('submit', async function(e) {
+      e.preventDefault();
+      const data = new FormData(e.target);
+      const res = await fetch('api.ps1', {
+        method: 'POST',
+        body: new URLSearchParams(data)
+      });
+      const text = await res.text();
+      document.getElementById('output').textContent = text;
+    });
+  </script>
+</body>
+</html>
