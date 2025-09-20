@@ -35,9 +35,11 @@
           }
         } else {
           alert("Usuário ou senha inválidos");
+          console.log("🔍 Debug:", json);
         }
       } catch (err) {
         alert("Erro ao conectar com o servidor");
+        console.error("❌ Erro:", err);
       }
     };
   </script>
