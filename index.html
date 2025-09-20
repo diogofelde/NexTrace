@@ -46,7 +46,8 @@
         logDebug("📦 Resposta da API: " + JSON.stringify(json));
 
         if (json.ok) {
-          logDebug("✅ Login autorizado — redirecionando...");
+          logDebug("✅ Login autorizado — papel: " + json.role);
+          alert("Bem-vindo, " + user + " (" + json.role + ")");
           window.location.href = "painel.html";
         } else {
           alert("Usuário ou senha inválidos");

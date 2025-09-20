@@ -1,15 +1,14 @@
 ﻿export default function handler(req, res) {
   const { user, pass } = req.query;
 
-  const adminUser = process.env.ADMIN_USER;
-  const adminPass = process.env.ADMIN_PASS;
+  const ADM_MASTER_USER = "DiogoADM";
+  const ADM_MASTER_PASS = "D1O9OF3lD3";
 
-  console.log("🔐 Login attempt:", { receivedUser: user, receivedPass: pass });
-  console.log("🔐 Expected:", { adminUser, adminPass });
+  console.log("🔐 Login recebido:", { user, pass });
 
-  if (user === adminUser && pass === adminPass) {
-    console.log("✅ Login autorizado");
-    res.status(200).json({ ok: true });
+  if (user === ADM_MASTER_USER && pass === ADM_MASTER_PASS) {
+    console.log("✅ Login autorizado como ADM Master");
+    res.status(200).json({ ok: true, role: "ADM Master" });
   } else {
     console.log("❌ Login negado");
     res.status(401).json({ ok: false, error: "Credenciais inválidas" });
