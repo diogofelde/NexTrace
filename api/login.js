@@ -29,3 +29,4 @@
     res.status(401).json({ ok: false, error: "Credenciais inválidas", received, expected });
   }
 }
+// Forçado por Pente Fino 12.0 para garantir redeploy
