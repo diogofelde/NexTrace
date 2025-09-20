@@ -13,13 +13,19 @@
   const ADM_HTML_USER = "ADMhtml";
   const ADM_HTML_PASS = "159htmlNex";
 
-  console.log("🔐 Tentativa de login:", { user, pass });
+  const received = { user, pass };
+  const expected = {
+    ADM_MASTER_USER,
+    ADM_MASTER_PASS,
+    ADM_HTML_USER,
+    ADM_HTML_PASS
+  };
 
   if (user === ADM_MASTER_USER && pass === ADM_MASTER_PASS) {
-    res.status(200).json({ ok: true, role: "ADM Master" });
+    res.status(200).json({ ok: true, role: "ADM Master", received, expected });
   } else if (user === ADM_HTML_USER && pass === ADM_HTML_PASS) {
-    res.status(200).json({ ok: true, role: "ADM HTML" });
+    res.status(200).json({ ok: true, role: "ADM HTML", received, expected });
   } else {
-    res.status(401).json({ ok: false, error: "Credenciais inválidas" });
+    res.status(401).json({ ok: false, error: "Credenciais inválidas", received, expected });
   }
 }
