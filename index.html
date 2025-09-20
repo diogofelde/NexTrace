@@ -18,12 +18,13 @@
   <script>
     document.getElementById('loginForm').onsubmit = async (e) => {
       e.preventDefault();
-      const user = document.getElementById('user').value;
+      const user = document.getElementById('user').value.trim();
       const pass = document.getElementById('pass').value;
 
       try {
         const res = await fetch(`/api/login?user=${encodeURIComponent(user)}&pass=${encodeURIComponent(pass)}`);
         const json = await res.json();
+
         if (json.ok) {
           window.location.href = "painel.html";
         } else {
