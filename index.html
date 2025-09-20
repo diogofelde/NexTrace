@@ -28,7 +28,11 @@
 
         if (json.ok) {
           alert("Bem-vindo, " + user + " (" + json.role + ")");
-          window.location.href = "painel.html";
+          if (json.role === "ADM Master") {
+            window.location.href = "painel.html";
+          } else if (json.role === "ADM HTML") {
+            window.location.href = "adm.html";
+          }
         } else {
           alert("Usuário ou senha inválidos");
         }
