@@ -4,10 +4,6 @@
   <meta charset="UTF-8">
   <title>NexTrace - Login</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    body { font-family: Arial, sans-serif; padding: 20px; }
-    .debug { margin-top: 20px; font-size: 0.9em; color: #555; background: #f9f9f9; padding: 10px; border-radius: 6px; }
-  </style>
 </head>
 <body>
   <h1>NexTrace - Painel SOC/NOC</h1>
@@ -20,40 +16,23 @@
   </form>
   <a href="reset.html">Esqueci minha senha</a>
 
-  <div id="debugPanel" class="debug" style="display:none;"></div>
-
   <script>
-    const DEBUG = new URLSearchParams(location.search).has("debug");
-    const debugPanel = document.getElementById("debugPanel");
-
-    function logDebug(msg) {
-      if (DEBUG && debugPanel) {
-        debugPanel.style.display = "block";
-        debugPanel.innerHTML += "<div>" + msg + "</div>";
-      }
-    }
-
     document.getElementById('loginForm').onsubmit = async (e) => {
       e.preventDefault();
       const user = document.getElementById('user').value.trim();
       const pass = document.getElementById('pass').value;
 
-      logDebug("🔍 Enviando login: " + user);
       try {
         const res = await fetch(`/api/login?user=${encodeURIComponent(user)}&pass=${encodeURIComponent(pass)}`);
         const json = await res.json();
 
-        logDebug("📦 Resposta da API: " + JSON.stringify(json));
-
         if (json.ok) {
-          logDebug("✅ Login autorizado — papel: " + json.role);
           alert("Bem-vindo, " + user + " (" + json.role + ")");
           window.location.href = "painel.html";
         } else {
           alert("Usuário ou senha inválidos");
         }
       } catch (err) {
-        logDebug("❌ Erro na requisição: " + err.message);
         alert("Erro ao conectar com o servidor");
       }
     };
