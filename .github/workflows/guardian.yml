@@ -1,0 +1,122 @@
+﻿name: Guardian — Diagnose & Autofix
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+jobs:
+  guard:
+    name: Diagnose and auto-fix
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Ensure vercel.json exists and points to Web/
+        shell: bash
+        run: |
+          set -e
+          FILE="vercel.json"
+          NEEDS_COMMIT=0
+          if [ ! -f "$FILE" ]; then
+            cat > "$FILE" << 'JSON'
+{
+  "version": 2,
+  "builds": [
+    { "src": "Web/**", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "Web/$1" }
+  ]
+}
+JSON
+            NEEDS_COMMIT=1
+          fi
+          if [ $NEEDS_COMMIT -eq 1 ]; then
+            git config user.name "nextrace-guardian"
+            git config user.email "guardian@users.noreply.github.com"
+            git add vercel.json
+            git commit -m "Guardian: cria/ajusta vercel.json para deploy estático em Web/"
+            git push
+          fi
+
+      - name: Ensure minimal Web/ files
+        shell: bash
+        run: |
+          set -e
+          mkdir -p Web
+          if [ ! -f "Web/departamentos.html" ]; then
+            echo "<!DOCTYPE html><html><body><h1>Login</h1></body></html>" > Web/departamentos.html
+          fi
+          if [ ! -f "Web/login.js" ]; then
+            echo "console.log('login.js placeholder');" > Web/login.js
+          fi
+          if [ ! -f "Web/painel.html" ]; then
+            echo "<!DOCTYPE html><html><body><h1>Painel</h1></body></html>" > Web/painel.html
+          fi
+          git config user.name "nextrace-guardian"
+          git config user.email "guardian@users.noreply.github.com"
+          git add Web/departamentos.html Web/login.js Web/painel.html
+          git commit -m "Guardian: adiciona arquivos mínimos do site estático Web/" || true
+          git push || true
+
+      - name: Prettier — format HTML/JS
+        run: |
+          npx prettier@3.3.3 --write "Web/**/*.{html,js,css}" || true
+
+      - name: Link checker (Web/)
+        run: |
+          npx lychee@0.15.1 --no-progress --base . "Web/**/*.html" || true
+
+      - name: Docker build (root) if Dockerfile exists
+        env:
+          DOCKERHUB_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
+          DOCKERHUB_TOKEN: ${{ secrets.DOCKERHUB_TOKEN }}
+        shell: bash
+        run: |
+          if [ -f "Dockerfile" ]; then
+            if [ -n "$DOCKERHUB_USERNAME" ] && [ -n "$DOCKERHUB_TOKEN" ]; then
+              echo "$DOCKERHUB_TOKEN" | docker login -u "$DOCKERHUB_USERNAME" --password-stdin
+              docker build -t "$DOCKERHUB_USERNAME/nextraceweb:latest" .
+            else
+              echo "Aviso: Sem credenciais Docker — executando apenas docker build local"
+              docker build -t "nextraceweb:local" . || true
+            fi
+          else
+            echo "Sem Dockerfile na raiz — pulando."
+          fi
+
+      - name: Docker build (Web/) if Dockerfile exists
+        env:
+          DOCKERHUB_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
+          DOCKERHUB_TOKEN: ${{ secrets.DOCKERHUB_TOKEN }}
+        shell: bash
+        run: |
+          if [ -f "Web/Dockerfile" ]; then
+            if [ -n "$DOCKERHUB_USERNAME" ] && [ -n "$DOCKERHUB_TOKEN" ]; then
+              echo "$DOCKERHUB_TOKEN" | docker login -u "$DOCKERHUB_USERNAME" --password-stdin
+              docker build -t "$DOCKERHUB_USERNAME/nextraceweb:latest" Web
+            else
+              echo "Aviso: Sem credenciais Docker — executando apenas docker build local para Web/"
+              docker build -t "nextraceweb:local" Web || true
+            fi
+          else
+            echo "Sem Dockerfile em Web/ — pulando."
+          fi
+
+      - name: Summary
+        run: |
+          echo "Guardian finalizado. Veja logs acima para correções aplicadas e avisos."
